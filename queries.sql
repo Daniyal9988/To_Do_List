@@ -1,4 +1,4 @@
-CREATE TABLE items (
-  id SERIAL PRIMARY KEY,
-  title VARCHAR(100) NOT NULL
+CREATE TABLE list (
+	id SERIAL NOT NULL,
+	task_name TEXT NOT NULL
 );
